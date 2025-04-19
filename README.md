@@ -30,6 +30,7 @@ conda create -n CompUseAgent
 ``` 
 pip install -r requirements.txt
 ```
+4. Get your [Open AI API key](https://platform.openai.com/api-keys) and store it in a `config.yaml` file in the same directory
 
 -------
 
