@@ -1,0 +1,6 @@
+torch
+openai
+browser-use
+langchain
+langchain-openai
+playwright
