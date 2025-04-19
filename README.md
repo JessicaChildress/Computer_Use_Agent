@@ -1,11 +1,11 @@
 # 🧠 Computer Use AI Agent 
 
-## Overview
+## 📋 Overview
 This project consists of a lightweight Python script that explores how AI agents are able perform complex tasks using computer inputs--like file access, app usage, or browser searching. The main framework was inspired by Paras Madan's code which can be found [here](https://medium.com/gopenai/computer-use-ai-agent-tutorial-full-code-browser-use-beb54cf1f525)
 
 ------
 
-## Features -- What does the code do? 
+## ⚡️ Features -- What does the code do? 
 #### The code for this project can be broken down into 5 steps: 
 1. Request a Prompt from the User
 2. Convert the Task into a Series of Actions
@@ -15,7 +15,7 @@ This project consists of a lightweight Python script that explores how AI agents
 
 --------
 
-## Environment Setup and Requirements
+## 🌎 Environment Setup and Requirements
 1. Clone the repo to your local computer and cd into the directory
 ``` 
 git clone https://github.com/JessicaChildress/Computer_Use_Agent.git
@@ -33,14 +33,14 @@ pip install -r requirements.txt
 
 -------
 
-## Usage 
+## ▶️ Usage 
 ```
 python computer_use_agent.py
 ```
 
 ------
 
-## The 2 Ways to Adhere to Data Privacy Best Practices:
+## ✅ The 2 Ways to Adhere to Data Privacy Best Practices:
 ### 1. Implement [WAIT] placeholders in a cloud-based LLM ⛅️
 ### 2. Fully automated Local LLM that can access user credentials 🔐
 
@@ -54,7 +54,7 @@ python computer_use_agent.py
 |   | * Can integrate deeply with system security features | * Higher technical knowledge required for proper security configurations |   
 
 
-For this simple architecture, we will **use the cloud-based** approach, which consists of a three-part design: 
+For this simple architecture, I **used the cloud-based** approach, which consists of a three-part design: 
 * Detect when a login might be required (performed during planning by the GPT-4o model)
 * Pause the agent and wait for the user to manually enter their credentials
 * Resume the process and continue with the remaining steps
