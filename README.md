@@ -32,6 +32,8 @@ pip install -r requirements.txt
 ```
 4. Get your [Open AI API key](https://platform.openai.com/api-keys) and store it in a `config.yaml` file in the same directory
 
+> [!IMPORTANT]  
+> Be sure to add the file name to your .gitignore file so that it does not get pushed to your repo! 
 -------
 
 ## ▶️ Usage 
